@@ -1,3 +1,5 @@
-export default function test () {
-  console.log('test2')
-};
+export function {echo} from "./script3.js"
+$("#cat").click(function(){
+  echo(Cat);  
+
+});
