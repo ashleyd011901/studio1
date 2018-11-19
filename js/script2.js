@@ -1,5 +1,8 @@
-export function {echo} from "./script3.js"
-$("#cat").click(function(){
-  echo(Cat);  
+import {echo} from './script3.js'
+
+export function test() {
+  $("#cat").click(function(){
+  echo();  
 
 });
+}
