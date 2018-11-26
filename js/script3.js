@@ -1,16 +1,21 @@
 //Add function to echo words here!
 
-export function echo(){
+export function image(input){
     var database = firebase.database();
     var databaseRef = database.ref('/');
     databaseRef.once('value').then(function(snapshot) {
         const databaseValues = snapshot.val();
         // console.log(databaseValues);
         
-    var kat = databaseValues[Cat];
-    var myImage = new Image(200);
-    myImage.src = kat;
-    $('body').append(myImage);
+    var kat = databaseValues[input];
+    
+    for (var i = 0; i < 10; i++) {
+      var myImage = new Image(200 - i*30);
+      myImage.src = kat;   
+      console.log(myImage);
+      $('#pictures').append(myImage);
+      
+    }
 });
 }
 
