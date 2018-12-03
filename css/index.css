@@ -1,1 +1,16 @@
 /* Write your CSS here */
+#title{
+font-family: 'Press Start 2P', cursive;
+}
+body{
+background-color: rgb(235, 121, 178);
+/* background-image:url("milky-way-2695569_960_720.jpg");
+background-size:cover;
+background-repeat: no-repeat; */
+}
+.button{
+    height:60px;
+    width:70px;
+    font-size: 20px;
+}
+
