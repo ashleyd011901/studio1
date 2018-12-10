@@ -9,8 +9,11 @@ background-size:cover;
 background-repeat: no-repeat; */
 }
 .button{
-    height:60px;
+    height:40px;
     width:70px;
-    font-size: 20px;
+    font-size: 15px;
+}
+.centerText{
+    
 }
 
