@@ -12,8 +12,14 @@ background-repeat: no-repeat; */
     height:40px;
     width:70px;
     font-size: 15px;
+    vertical-align: middle;
 }
-.centerText{
-    
+.container{
+    padding-left: 585px;
+
+}
+.container2{
+    padding-left: 510px;
+
 }
 
